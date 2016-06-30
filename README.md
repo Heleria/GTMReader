@@ -1,8 +1,8 @@
-# Dictionary Migrator
+# GTMReader
 
 ## What it does
 
-This tool converts reads JSON-values (in the format they have after conversion with 'https://github.com/Heleria/SwiftToGTMEncoder') from your Value Collections stored in Google Tag Manager, and converts them into any of the following types:
+This tool converts reads JSON-values (in the format they have after conversion with https://github.com/Heleria/SwiftToGTMEncoder) from your Value Collections stored in Google Tag Manager, and converts them into any of the following types:
  - Arrays (can recursively contain anything on this list except CGSize)
  - Dictionaries (can recursively contain anything on this list except CGSize)
  - CGFloats
