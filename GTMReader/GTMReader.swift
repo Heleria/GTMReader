@@ -181,7 +181,7 @@ public class GTMManager : NSObject, TAGContainerOpenerNotifier {
         GTM = TAGManager.instance()
         // Starts process of attempting to download value collection from GTM server
         TAGContainerOpener.openContainerWithId(CONTAINER_ID, tagManager: GTM, openType: kTAGOpenTypePreferFresh, timeout: nil, notifier: self)
-        collectGTMContainer() // TODO Idk why, but used to be commented out
+        collectGTMContainer()
     }
     
     /// Indicates that a non-default container is now available. We call container.refresh() so that in case the container is outdated, it will be updated for next call
